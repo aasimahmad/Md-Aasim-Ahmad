@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="google-site-verification"
+      content="Qb6SV58bMQvxYnXAzDOhRwe-9mQQ12YcBmIngWkkaug"
+    />
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <title>Md Aasim Ahmad</title>
+  </head>
+
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu bx-tada-hover"></i>
+        </div>
+
+        <a href="#" class="nav nav__logo"
+          ><i class="bx bxs-chevron-up-square bx-fade-up"></i
+        ></a>
+
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x bx-flashing-hover"></i>
+          </div>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link" id="home-nav-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#works" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <div class="home__data">
+            <div class="home__img">
+              <img src="img/aasim-new.png" />
+            </div>
+
+            <h1 class="home__title">Md Aasim Ahmad</h1>
+            <span class="home__profession">Frontend Developer</span>
+
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/aasimahmad/"
+                target="_blank"
+                class="home__social-link"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/aasimahmad/"
+                target="_blank"
+                class="home__social-link"
+                ><i class="bx bxl-github"></i
+              ></a>
+            </div>
+
+            <!--== 
+
+              <a href="#" class="home__social-link"
+                ><i class="bx bxl-dribbble"></i
+              ></a>
+              <a href="#" class="home__social-link"
+                ><i class="bx bxl-behance"></i
+              ></a> 
+            ==-->
+
+            <!--== Not under use
+              <a href="#" class="button home__button">Download Resume</a>
+              <br>
+              <br>
+            ==-->
+
+            <!--== Download Button ==-->
+            <a href="img/Md_Aasim_Ahmad_Resume.pdf" download>
+              <button id="button" class="button ready" onclick="clickButton()">
+                <div class="message submitMessage">
+                  <span class="button-text">Download Resume</span>
+                </div>
+
+                <div class="message loadingMessage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17">
+                    <circle class="loadingCircle" cx="2.2" cy="10" r="1.6" />
+                    <circle class="loadingCircle" cx="9.5" cy="10" r="1.6" />
+                    <circle class="loadingCircle" cx="16.8" cy="10" r="1.6" />
+                  </svg>
+                </div>
+
+                <div class="message successMessage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 11">
+                    <polyline
+                      stroke="currentColor"
+                      points="1.4,5.8 5.1,9.5 11.6,2.1 "
+                    />
+                  </svg>
+                  <span class="button-text">Downloaded</span>
+                </div>
+              </button>
+            </a>
+
+            <canvas id="canvas"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <span class="section-subtitle">Who I am</span>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <p>
+              Hi, I'm a 24-year-old Frontend developer, living in
+              <a href="https://goo.gl/maps/PbVb7Cs17VCwNYJ79" target="_blank"
+                >Bengaluru</a
+              >, India. I am a Computer Science Graduate, currently working with
+              awesome folks at
+              <a
+                href="https://www.cognizant.com/"
+                rel="nofollow"
+                target="_blank"
+                >Cognizant</a
+              >.
+            </p>
+            <br />
+            <p>
+              Take a look at my <a href="#skills">skills</a> and
+              <a href="#works">portfolio</a>. We can connect over
+              <a href="https://www.linkedin.com/in/aasimahmad/" target="_blank"
+                >LinkedIn</a
+              >. I am always excited to work with like-minded people. Let's
+              <a href="#contact">connect! </a>
+            </p>
+
+            <!-- <img src="img/about.png" alt="" class="about__img"> -->
+            <div class="about__img">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                id="b52d7e2d-d80f-4111-b6ed-d15502ee1edd"
+                width="230"
+                height="250"
+                data-name="Layer 1"
+                viewBox="0 0 711.188 669.683"
+              >
+                <polygon
+                  fill="#e6e6e6"
+                  points="516.326 380.018 516.326 565.013 547.27 615.443 549.625 619.279 671.722 619.279 674.189 380.018 516.326 380.018"
+                />
+                <polygon
+                  points="516.326 380.018 516.326 565.013 547.27 615.443 549.169 380.018 516.326 380.018"
+                  opacity=".1"
+                />
+                <polygon
+                  fill="#e6e6e6"
+                  points="221.566 375.084 221.566 560.08 190.622 610.51 188.267 614.345 66.17 614.345 63.703 375.084 221.566 375.084"
+                />
+                <polygon
+                  points="221.566 375.084 221.566 560.08 190.622 610.51 188.723 375.084 221.566 375.084"
+                  opacity=".1"
+                />
+                <polygon
+                  fill="#e6e6e6"
+                  points="711.188 371.385 711.188 382.484 47.67 382.484 47.67 366.451 109.335 334.385 656.923 334.385 711.188 371.385"
+                />
+                <polygon
+                  points="711.188 371.385 711.188 382.484 47.67 382.484 47.67 366.451 711.188 371.385"
+                  opacity=".1"
+                />
+                <polygon
+                  fill="#54423d"
+                  points="142.635 426.883 113.035 426.883 100.702 418.25 156.201 418.25 142.635 426.883"
+                />
+                <polygon
+                  fill="#54423d"
+                  points="142.635 462.649 113.035 462.649 100.702 454.016 156.201 454.016 142.635 462.649"
+                />
+                <polygon
+                  fill="#54423d"
+                  points="142.635 513.215 113.035 513.215 100.702 504.581 156.201 504.581 142.635 513.215"
+                />
+                <polygon
+                  fill="#54423d"
+                  points="142.635 563.78 113.035 563.78 100.702 555.147 156.201 555.147 142.635 563.78"
+                />
+                <polygon
+                  fill="#54423d"
+                  points="595.257 431.816 624.857 431.816 637.19 423.183 581.691 423.183 595.257 431.816"
+                />
+                <polygon
+                  fill="#54423d"
+                  points="595.257 467.582 624.857 467.582 637.19 458.949 581.691 458.949 595.257 467.582"
+                />
+                <polygon
+                  fill="#54423d"
+                  points="595.257 518.148 624.857 518.148 637.19 509.515 581.691 509.515 595.257 518.148"
+                />
+                <polygon
+                  fill="#54423d"
+                  points="595.257 568.713 624.857 568.713 637.19 560.08 581.691 560.08 595.257 568.713"
+                />
+                <path
+                  fill="#54423d"
+                  d="M859.81989,235.61493H610.63446a9.4227,9.4227,0,0,0-9.42389,9.42389V412.89655a9.4227,9.4227,0,0,0,9.42389,9.42388h94.5929l-3.54389,22.62623s-20.25281,10.75927-6.01251,11.07574,81.32764,0,81.32764,0,12.97448,0-7.59479-11.39221l-3.33362-22.30976h93.7497a9.42266,9.42266,0,0,0,9.42388-9.42388V245.03882A9.42266,9.42266,0,0,0,859.81989,235.61493Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <rect
+                  width="249.996"
+                  height="139.871"
+                  x="365.823"
+                  y="130.424"
+                  fill="#f2f2f2"
+                />
+                <circle cx="490.821" cy="125.994" r="1.582" fill="#f2f2f2" />
+                <circle cx="490.821" cy="294.346" r="6.013" fill="#f2f2f2" />
+                <polygon
+                  fill="#54423d"
+                  points="481.452 357.952 481.452 361.117 311.202 361.117 311.202 358.585 311.436 357.952 315.632 346.56 477.971 346.56 481.452 357.952"
+                />
+                <path
+                  fill="#54423d"
+                  d="M791.37558,470.01266c-.31011,1.3259-1.481,2.72467-4.1265,4.04741-9.4935,4.74675-28.797-1.2658-28.797-1.2658s-14.87315-2.53161-14.87315-9.17706a11.86592,11.86592,0,0,1,1.30377-.77528c3.99133-2.11163,17.2253-7.32222,40.69051.22062a9.78618,9.78618,0,0,1,4.46035,2.923A4.667,4.667,0,0,1,791.37558,470.01266Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <path
+                  d="M791.37558,470.01266c-11.62,4.45247-21.97744,4.78472-32.607-2.59805a23.34328,23.34328,0,0,0-13.88583-4.57268c3.99133-2.11163,17.2253-7.32222,40.69051.22062a9.78618,9.78618,0,0,1,4.46035,2.923A4.667,4.667,0,0,1,791.37558,470.01266Z"
+                  opacity=".1"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <ellipse
+                  cx="532.4"
+                  cy="350.99"
+                  fill="#f2f2f2"
+                  rx="4.114"
+                  ry="1.266"
+                />
+                <polygon
+                  points="481.452 357.952 481.452 361.117 311.202 361.117 311.202 358.585 311.436 357.952 481.452 357.952"
+                  opacity=".1"
+                />
+                <path
+                  fill="#54423d"
+                  d="M339.06751,115.15881a8.55394,8.55394,0,0,0-4.96126,1.1083c-1.476,1.0108-2.40629,2.78162-3.35588,4.42947a52.98576,52.98576,0,0,1-14.43428,16.30464c-4.28894,3.142-9.74169,7.05966-9.00789,12.85269a17.37163,17.37163,0,0,0,2.09058,5.4255c3.9566,7.987,14.75357,14.15926,13.69156,23.27309,3.931-6.58092-1.327-9.835,2.604-16.41586,1.87205-3.134,5.12412-6.67168,7.95054-4.70353.94637.659,1.56777,1.84095,2.55314,2.41917,2.35122,1.37972,4.85259-1.258,6.93387-3.12633,7.17685-6.44263,17.383-4.7548,26.31387-2.74743,4.21624.94767,8.8473,2.191,11.33971,6.2207,3.277,5.29821-3.11344,11.02034-4.72807,17.01049a3.264,3.264,0,0,0,3.50293,4.06214c2.67975-.26434,5.8542-.481,6.01278-1.65694,3.37154.12,7.50269-.26181,8.94728-3.7725a14.76216,14.76216,0,0,0,.69252-4.29319c.5302-5.89718,3.0331-11.27719,4.69119-16.88993s2.37906-12.1905-.41909-17.1668a19.86362,19.86362,0,0,0-3.666-4.45557C379.94,117.67017,359.06259,115.136,339.06751,115.15881Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <path
+                  fill="#ffb8b8"
+                  d="M326.54375,190.06386s3.4534,28.7784-9.20909,31.08068,11.51136,41.4409,11.51136,41.4409l57.55681,6.90682-13.81364-46.04545s-9.20909-3.45341-3.4534-26.47613S326.54375,190.06386,326.54375,190.06386Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <polygon
+                  fill="#ffb8b8"
+                  points="47.028 569.318 51.633 632.631 75.806 632.631 68.9 569.318 47.028 569.318"
+                />
+                <polygon
+                  fill="#ffb8b8"
+                  points="224.303 449.6 227.756 502.552 254.233 491.041 243.872 447.298 224.303 449.6"
+                />
+                <path
+                  fill="#290f09"
+                  d="M274.16705,442.73826s1.15113,66.7659,8.058,88.63749,5.75568,23.02272,4.60455,26.47613-2.30228,1.15114-2.30228,6.90682-2.30227,96.69544,0,104.7534-6.90681,21.87159,0,23.02272,39.13863,0,40.28977-6.90682-9.20909-9.20909-4.60454-13.81363,11.51136-98.99772,11.51136-98.99772l16.11591-65.61476,29.92954-34.53409H441.0818l19.56932,75.975s-8.058,21.87159-2.30228,21.87159,40.28977,6.90682,40.28977-18.41818S487.12725,451.94735,484.825,449.64508s1.15113-10.36023-2.30228-13.81364-43.74317-27.62727-58.70794-32.23181S387.857,393.51476,387.857,393.51476Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <path
+                  fill="#54423d"
+                  d="M498.63861,596.99051s-17.267-5.75568-25.325,11.51137-4.60454,21.87159-4.60454,21.87159,26.47613,9.20909,31.08068,4.60454c2.00333-2.00334,8.36471-2.69926,14.91273-2.84621,9.97289-.22381,12.62625-14.33323,3.20748-17.61885q-.42145-.147-.85317-.25539C507.8477,611.95529,498.63861,596.99051,498.63861,596.99051Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <circle cx="108.038" cy="59.365" r="34.534" fill="#ffb8b8" />
+                <path
+                  fill="#cc4b2c"
+                  d="M307.55,235.53374s56.40567,11.51136,70.21931-6.90682,19.56931,51.80113,19.56931,51.80113l6.90682,73.67272-10.36023,40.28977s-54.1034,43.74318-71.37044,47.19658-43.74318,5.75569-43.74318,5.75569,8.058-127.77613,8.058-130.0784S307.55,235.53374,307.55,235.53374Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <path
+                  fill="#290f09"
+                  d="M324.70433,213.94456s-12.54979-7.18923-16.0032-.28241S273.01591,237.836,269.5625,237.836s6.90682,95.54431,2.30227,107.05567S245.38864,440.436,258.05114,447.34281s3.45341-6.90682,16.11591,10.36022,74.82385,17.267,78.27726,10.36023-27.62727-58.708-21.87159-107.05567,14.96477-115.11362,6.90682-124.32271S324.70433,213.94456,324.70433,213.94456Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <path
+                  fill="#290f09"
+                  d="M366.258,221.7201l1.60341-5.518s47.89544,15.87824,50.19772,26.23847,1.15113,82.88181-6.90682,88.63749-19.56932,14.96477-11.51136,28.7784,17.267,28.77841,24.17386,29.92954,19.56931,9.20909,16.1159,17.267-44.89431-6.90682-44.89431-6.90682-27.62727-20.72045-26.47613-52.95227S366.258,221.7201,366.258,221.7201Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <path
+                  fill="#ffb8b8"
+                  d="M406.54771,357.55418l-27.62727,51.80113s-40.28976,41.4409-17.267,46.04545,35.68522-37.9875,35.68522-37.9875l29.92955-42.592Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <path
+                  fill="#54423d"
+                  d="M340.74981,124.19457a7.83806,7.83806,0,0,0-4.03868.78334,9.41322,9.41322,0,0,0-2.73182,3.13072,39.77267,39.77267,0,0,1-11.7501,11.524c-3.49138,2.22077-7.93014,4.98972-7.3328,9.0842a11.35949,11.35949,0,0,0,1.70182,3.8347,30.16344,30.16344,0,0,1,3.66519,18.80068l9.60011-13.954c1.52393-2.21507,4.17125-4.7155,6.47207-3.32442.77039.46577,1.27623,1.30117,2.07836,1.70985,1.914.97518,3.95021-.88912,5.64447-2.20967,5.84225-4.55361,14.15049-3.36066,21.42059-1.94187,3.43219.66981,7.20207,1.54859,9.231,4.39676,3.37169,4.73311-.149,11.5721,1.81882,17.04a5.02339,5.02339,0,0,0,2.07852-3.31717c2.74457.08484,6.1075-.185,7.28345-2.66638a9.18757,9.18757,0,0,0,.56374-3.03439c.43161-4.16809,2.46907-7.97065,3.81883-11.93769s1.93666-8.61616-.34116-12.13338a14.68107,14.68107,0,0,0-2.98426-3.14917C374.02174,125.96958,357.02664,124.17845,340.74981,124.19457Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <path
+                  fill="#290f09"
+                  d="M406.54771,237.836l10.72528,2.84686s24.95995,63.919,19.20427,107.66222-9.20909,34.53409-9.20909,34.53409-9.20909-20.72046-29.92955-16.11591Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <path
+                  fill="#54423d"
+                  d="M293.02894,739.422c-2.77592,3.77228-2.21935,9.16459-4.67828,13.15075-2.13144,3.45526-6.14837,5.26695-8.81439,8.32869a22.32616,22.32616,0,0,0-2.26617,3.25987c-2.47311,4.14255-4.4833,9.45174-2.04761,13.61641,1.95936,3.35022,6.07786,4.65961,9.855,5.552,4.77407,1.128,9.73436,2.03071,14.56354,1.16876s9.54882-3.819,11.27067-8.41239a32.50011,32.50011,0,0,1,1.2051-3.4007c2.61747-5.15294,10.82749-5.20864,13.50628-10.33,1.87466-3.584.15138-7.91623-1.57118-11.57578l-5.26109-11.1771c-1.74592-3.70919-8.82362-1.57608-12.51339-2.46492C301.46518,735.97844,296.49084,734.70126,293.02894,739.422Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <path
+                  fill="#ffb8b8"
+                  d="M254.59773,380.5769l48.34772,74.82386s29.92954,37.98749,39.13863,20.72045-32.23181-46.04545-32.23181-46.04545L278.77159,372.519Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <path
+                  fill="#290f09"
+                  d="M278.77159,240.13828,269.5625,237.836s-18.41818,5.75568-23.02272,29.92954-1.15114,120.86931,4.60454,122.02044,28.42725-16.83663,32.05624-13.02286-7.88238-15.75554-4.429-26.11577S278.77159,240.13828,278.77159,240.13828Z"
+                  transform="translate(-244.40605 -115.15866)"
+                />
+                <g
+                  id="f3c2397c-d780-4cc6-97d8-1503d8277a2c"
+                  data-name="Group 13"
+                >
+                  <rect
+                    id="ad41612f-86f7-46b2-a964-3a5da7bcf3cf"
+                    width="29.752"
+                    height="7.163"
+                    x="437.407"
+                    y="176.363"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 55"
+                  />
+                  <rect
+                    id="b9a0b375-cc2a-4c59-8850-661af54e4f62"
+                    width="10.468"
+                    height="7.163"
+                    x="559.722"
+                    y="176.363"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 56"
+                  />
+                  <rect
+                    id="e174c2ab-9bc5-41ec-b37c-b06fbf8a9878"
+                    width="10.468"
+                    height="7.163"
+                    x="580.659"
+                    y="176.363"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 57"
+                  />
+                  <rect
+                    id="ba2479ac-4c7d-43b4-a028-73b1e20e4002"
+                    width="71.075"
+                    height="7.163"
+                    x="477.628"
+                    y="176.363"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 58"
+                  />
+                  <rect
+                    id="ac60ef86-00f2-480b-8171-28b6fdfc1958"
+                    width="29.752"
+                    height="7.163"
+                    x="399.941"
+                    y="222.644"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 59"
+                  />
+                  <rect
+                    id="b3d8298d-cd65-487a-8b19-4cee946356e7"
+                    width="10.468"
+                    height="7.163"
+                    x="522.256"
+                    y="222.644"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 60"
+                  />
+                  <rect
+                    id="ed27f15f-f0c4-4569-8330-a6688f8e356c"
+                    width="10.468"
+                    height="7.163"
+                    x="543.193"
+                    y="222.644"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 61"
+                  />
+                  <rect
+                    id="f685c005-adaf-4d60-acda-005b037d82a6"
+                    width="71.075"
+                    height="7.163"
+                    x="440.162"
+                    y="222.644"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 62"
+                  />
+                  <rect
+                    id="eca7c7fc-83f8-48ca-a588-6606db47af3f"
+                    width="29.752"
+                    height="7.163"
+                    x="522.807"
+                    y="192.341"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 63"
+                  />
+                  <rect
+                    id="a71b5b2f-f8b9-481d-a301-5e3357e5fe42"
+                    width="29.752"
+                    height="7.163"
+                    x="563.028"
+                    y="192.341"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 64"
+                  />
+                  <rect
+                    id="abb3a25a-f854-41fc-8391-e6ad9fbe2417"
+                    width="10.468"
+                    height="7.163"
+                    x="399.941"
+                    y="192.341"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 66"
+                  />
+                  <rect
+                    id="add2b425-b775-4eb5-9c25-8c4c14f957c9"
+                    width="10.468"
+                    height="7.163"
+                    x="420.878"
+                    y="192.341"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 67"
+                  />
+                  <rect
+                    id="b7159612-3b84-4b0b-a885-612eaab04c06"
+                    width="71.075"
+                    height="7.163"
+                    x="441.815"
+                    y="192.341"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 68"
+                  />
+                  <rect
+                    id="edfc7301-4de5-47dc-80e2-1ae2da982d6d"
+                    width="29.752"
+                    height="7.163"
+                    x="461.099"
+                    y="207.768"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 69"
+                  />
+                  <rect
+                    id="e1009f91-6275-4375-80fa-0d778e331fdc"
+                    width="29.752"
+                    height="7.163"
+                    x="420.878"
+                    y="207.768"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 70"
+                  />
+                  <rect
+                    id="a060fb9f-1f1a-4862-9a69-16dd49199e18"
+                    width="10.468"
+                    height="7.163"
+                    x="399.941"
+                    y="207.768"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 71"
+                  />
+                  <rect
+                    id="b6754d5f-104f-449c-b9a9-cf9ac82bf5fe"
+                    width="10.468"
+                    height="7.163"
+                    x="582.312"
+                    y="207.768"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 73"
+                  />
+                  <rect
+                    id="e6ed1ccd-2cfd-450f-a339-07df3a1ee6bb"
+                    width="71.075"
+                    height="7.163"
+                    x="500.768"
+                    y="207.768"
+                    fill="#cc4b2c"
+                    data-name="Rectangle 74"
+                  />
+                </g>
+              </svg>
+            </div>
+          </div>
+
+          <div>
+            <div class="about__information">
+              <h3 class="about__information-title">Information</h3>
+
+              <div class="about__information-data">
+                <i class="bx bx-user about__information-icon"></i>
+                <span>Md Aasim Ahmad</span>
+              </div>
+
+              <div class="about__information-data">
+                <i class="bx bx-phone about__information-icon"></i>
+                <span>+91-9852590597</span>
+              </div>
+
+              <div class="about__information-data">
+                <i class="bx bx-envelope about__information-icon"></i>
+                <span>aasimahmad5@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="about__information">
+              <h3 class="about__information-title">Experience</h3>
+
+              <div class="about__information-data">
+                <i class="bx bx-medal about__information-icon"></i>
+                <div>
+                  <span class="about__information-subtitle">2.5 years</span>
+                  <span class="about__information-subtitle-small">
+                    Work Experience</span
+                  >
+                </div>
+              </div>
+
+              <div class="about__information-data">
+                <i class="bx bx-briefcase about__information-icon"></i>
+                <div>
+                  <span class="about__information-subtitle">More than 10</span>
+                  <span class="about__information-subtitle-small"
+                    >Projects Completed</span
+                  >
+                </div>
+              </div>
+
+              <div class="about__information-data">
+                <i class="bx bx-happy-beaming about__information-icon"></i>
+                <div>
+                  <span class="about__information-subtitle">More than 5 </span>
+                  <span class="about__information-subtitle-small"
+                    >Happy Clients</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+
+      <section class="skills section" id="skills">
+        <span class="section-subtitle">What do I possess</span>
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div class="skills__content">
+            <h3 class="skills__subtitle">Frontend</h3>
+
+            <i class="bx bxl-html5 bx-tada-hover skills__icon"></i>
+            <i class="bx bxl-css3 bx-tada-hover skills__icon-nomargin"></i>
+            <div class="skills__data">
+              <span class="skills__name">HTML/CSS</span>
+              <span class="skills__number"><!--  90%  --></span>
+              <span class="skills__bar skills__html"></span>
+            </div>
+
+            <i class="bx bxl-javascript bx-tada-hover skills__icon"></i>
+            <div class="skills__data">
+              <span class="skills__name">Javascript</span>
+              <span class="skills__number"><!--  80%  --></span>
+              <span class="skills__bar skills__javascript"></span>
+            </div>
+
+            <i class="bx bxl-react bx-spin-hover skills__icon"></i>
+            <div class="skills__data">
+              <span class="skills__name">React</span>
+              <span class="skills__number"><!--  70%  --></span>
+              <span class="skills__bar skills__react"></span>
+            </div>
+
+            <i class="bx bxl-redux bx-spin-hover skills__icon"></i>
+            <div class="skills__data">
+              <span class="skills__name">Redux</span>
+              <span class="skills__number"><!--  50%  --></span>
+              <span class="skills__bar skills__redux"></span>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__subtitle">Backend</h3>
+
+            <i class="bx bxl-c-plus-plus bx-tada-hover skills__icon"></i>
+            <div class="skills__data">
+              <span class="skills__name">C++</span>
+              <span class="skills__number"><!--  70%  --></span>
+              <span class="skills__bar skills__cpp"></span>
+            </div>
+
+            <i class="bx bxl-python bx-tada-hover skills__icon"></i>
+            <div class="skills__data">
+              <span class="skills__name">Python</span>
+              <span class="skills__number"><!--  60%  --></span>
+              <span class="skills__bar skills__python"></span>
+            </div>
+
+            <!--===== 
+
+            <i class="bx bxl-nodejs bx-tada-hover skills__icon"></i>
+            <div class="skills__data">
+              <span class="skills__name">Node.js</span>
+              <span class="skills__number">50%</span>
+              <span class="skills__bar skills__nodejs"></span>
+            </div>
+
+            =====-->
+
+            <i class="bx bxl-firebase bx-tada-hover skills__icon"></i>
+            <div class="skills__data">
+              <span class="skills__name">Firebase</span>
+              <span class="skills__number"><!--  60%  --></span>
+              <span class="skills__bar skills__firebase"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== Experience =====-->
+
+      <section class="experience section">
+        <span class="section-subtitle">Where do I work</span>
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience__container bd-grid">
+          
+          <!-- Experience 1 -->
+          <div class="experience__content">
+            <div>
+              <h3 class="experience__year">Jun 2019 - Present</h3>
+              <span class="experience__company">Cognizant, Bengaluru</span>
+            </div>
+
+            <div class="experience__time">
+              <span class="experience__rounder"></span>
+              <span class="experience__line"></span>
+            </div>
+
+            <div>
+              <h3 class="experience__role">Software Engineer</h3>
+              <span class="experience__skills"
+                >Network Engineering, Javascript, React</span
+              >
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="experience__content">
+            <div>
+              <h3 class="experience__year">Feb 2019 - Apr 2019</h3>
+              <span class="experience__company">Cognizant, Bengaluru</span>
+            </div>
+
+            <div class="experience__time">
+              <span class="experience__rounder"></span>
+              <span class="experience__line"></span>
+            </div>
+
+            <div>
+              <h3 class="experience__role">Engineer Intern</h3>
+              <span class="experience__skills">AWS Cloud, Network Engineering</span>
+            </div>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="experience__content">
+            <div>
+              <h3 class="experience__year">Jul 2018 - Aug 2018</h3>
+              <span class="experience__company">Biztime IT Solutions, Bengaluru</span>
+            </div>
+
+            <div class="experience__time">
+              <span class="experience__rounder"></span>
+              <span class="experience__line"></span>
+            </div>
+
+            <div>
+              <h3 class="experience__role">Intern</h3>
+              <span class="experience__skills"
+                >HTML, CSS, Javascript</span
+              >
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--===== Qualification =====-->
+
+      <section class="education section">
+        <span class="section-subtitle">What did I study</span>
+        <h2 class="section-title">Qualification</h2>
+
+        <div class="education__container bd-grid">
+
+          <!-- Education 1 -->
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2015-2019</h3>
+              <span class="education__school"
+                >BNM Institute of Technology, Bengaluru</span
+              >
+            </div>
+
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+
+            <div>
+              <h3 class="education__dept">B.E. (Information Science)</h3>
+              <span class="education__score">7.85 CGPA</span>
+            </div>
+          </div>
+
+          <!-- Education 2 -->
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2013-2014</h3>
+              <span class="education__school"
+                >DAV Public School, Jamshedpur</span
+              >
+            </div>
+
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+
+            <div>
+              <h3 class="education__dept">Std XII</h3>
+              <span class="education__score">75.0 %</span>
+            </div>
+          </div>
+
+          <!-- Education 3 -->
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2011-2012</h3>
+              <span class="education__school"
+                >DAV Public School, Jamshedpur</span
+              >
+            </div>
+
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+
+            <div>
+              <h3 class="education__dept">Std X</h3>
+              <span class="education__score">9.8 CGPA</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--===== SERVICES =====-->
+
+      <section class="services section" id="services">
+        <span class="section-subtitle">What I am good at</span>
+        <h2 class="section-title">Services</h2>
+
+        <div class="services__container bd-grid">
+
+          <div class="services__content">
+            <i class="bx bx-code bx-tada-hover services__icon"></i>
+            <h3 class="services__title">UI Development</h3>
+            <p class="services__description">
+              Using HTML, CSS and JavaScript, I love bringing concepts to life. Web apps which contains great UI are the most enthralling to work on. Great UI binds the users. It should be captivated enough that users do not leave the site before responding to call to action. Resposiveness is a must nowadays. I also focus on implementing design on mobile websites ensuring cross-browser compatibility. 
+            </p>
+          </div>
+
+          <div class="services__content">
+            <i class="bx bx-brush bx-tada-hover services__icon"></i>
+            <h3 class="services__title">Progressive Web Apps</h3>
+            <p class="services__description">
+              Having worked on few small-scale projects, I always feel thrilled to work on PWA projects and enhance site performance for better user experience. With their small size, shorter loading time, app-like features and higher user engagement, PWAs are beneficial to businesses and users. I like working on PWAs because of the modern development approach and positive developer experience it provides.
+            </p>
+          </div>
+        </div>
+
+        <!--
+                    Managing software workflow.
+          Following SEO best practices.
+          Fixing bugs and testing for usability.
+                        Optimizing the user experience.
+        -->
+
+
+
+
+
+        <!--===== 
+
+          <div class="services__content">
+            <i class='bx bx-pen bx-tada-hover services__icon' ></i>
+            <h3 class="services__title">Graphic Design</h3>
+            <p class="services__description"></p>
+          </div>
+
+          <div class="services__content">
+            <i class='bx bx-server bx-tada-hover services__icon' ></i>
+            <h3 class="services__title">Backend Development</h3>
+            <p class="services__description">This service is of high quality and the experience I have in this field</p>
+          </div>
+
+          <div class="services__content">
+            <i class='bx bx-mobile bx-tada-hover services__icon' ></i>
+            <h3 class="services__title">Mobile App Development</h3>
+            <p class="services__description">This service is of high quality and the experience I have in this field</p>
+          </div>
+        
+        =====-->
+      </section>
+
+      <!--===== PROJECT IN MIND =====-->
+
+      <section class="project section">
+        <div class="project__container bd-grid">
+          <div class="project__data">
+            <h2 class="section-title project__title">
+              Do you have a project in mind?
+            </h2>
+            <p class="project__description">
+              I'm always excited to work on awesome projects. Let's connect and
+              discuss over coffee.
+            </p>
+            <a href="#contact" class="button button__light">Contact Me</a>
+          </div>
+
+          <!-- <img src="img/projectmind.png" alt="" class="project__img"> -->
+
+          <svg
+            class="project__img"
+            xmlns="http://www.w3.org/2000/svg"
+            id="f0a8f4ba-cc2b-4400-9e08-d246a0bad060"
+            height="320px"
+            data-name="Layer 1"
+            viewbox="0 -10 250 635"
+          >
+            <path
+              fill="#ffb9b9"
+              d="M241.91491,314.67894s30.77895-14.70576,30.28646-2.00541-31.02521,21.05594-31.02521,21.05594Z"
+              transform="translate(-50.625 -133.8148)"
+            />
+            <path
+              fill="#290f09"
+              d="M225.02834,422.13944S239.54941,457.681,244.9146,483.328s13.53608,60.94229,3.02582,85.97362-40.39191,98.59934-40.69972,106.53706,2.55946,15.99857-3.79071,15.75232-40.90677-11.12588-42.30963-15.95007,11.79-17.032,11.79-17.032l32.57732-102.08224L171.5182,490.02139l-24.51648,99.215-4.80184,123.82843s-23.56691-7.2736-26.98824-1.04655c0,0-10.55875-14.71883-11.90005-21.13057s4.98653-128.59106,4.98653-128.59106-21.63236-139.16289-4.16937-138.4857S189.99232,382.62245,225.02834,422.13944Z"
+              transform="translate(-50.625 -133.8148)"
+            />
+            <path
+              fill="#54423d"
+              d="M203.69623,685.2408s16.10862,35.60315,17.63461,37.25226,12.02317,17.95548,4.08545,17.64767-26.68044-8.98428-40.47584-22.23869-31.98406-36.21877-30.33495-37.74475,12.9466-5.85768,12.9466-5.85768Z"
+              transform="translate(-50.625 -133.8148)"
+            />
+            <path
+              fill="#54423d"
+              d="M139.33261,705.00394s.97192,15.937,3.90076,22.4103,2.55947,15.99856-5.37825,15.69075-28.45267-4.2832-28.45267-4.2832-1.21817-9.58683.43093-11.11281,8.67647-18.74272,5.68607-23.62847S139.33261,705.00394,139.33261,705.00394Z"
+              transform="translate(-50.625 -133.8148)"
+            />
+            <path
+              fill="#ffb9b9"
+              d="M127.58939,187.8209s-16.922,26.37263-23.51842,32.47656,11.9616,19.543,11.9616,19.543l33.2153,4.46789s-.41786-30.2249,1.29281-33.33842S127.58939,187.8209,127.58939,187.8209Z"
+              transform="translate(-50.625 -133.8148)"
+            />
+            <path
+              fill="#cc4b2c"
+              d="M156.45992,222.329s-6.84267,12.45411-13.19285,12.20786-39.1961-14.2394-40.599-19.0636-10.87963,34.5566-10.87963,34.5566L172.16,391.47053l19.60459-13.54915-9.49913-83.04478-7.80153-44.8206Z"
+              transform="translate(-50.625 -133.8148)"
+            />
+            <path
+              fill="#290f09"
+              d="M99.70361,348.91253c3.206,6.70666,5.20835,13.70047,4.9307,20.86031-.01231.31753-.02462.635-.05282.95187-.76057,14.69329-6.17341,31.68645-8.11534,44.04442-1.40908,8.86485-1.00808,15.33552,4.1797,16.85636,12.57723,3.66759-1.83379,6.28862,46.826,22.48494s57.15159,2.21623,57.27471-.95886-6.89116-27.29606-5.24206-28.822,23.07442,19.974,29.54772,17.04512.73874-19.05053.73874-19.05053-14.58264-33.954-14.27483-41.89176-22.08942-45.37466-22.08942-45.37466L178.193,235.89122s-5.85768-12.9466-13.73384-14.84195-14.411,2.621-14.411,2.621L163.228,252.80015l13.90546,51.417-2.32629,18.989s-16.17018-34.0156-26.7905-47.14689-33.26379-44.21805-33.26379-44.21805-5.28646-17.83738-1.2957-23.16791c3.99136-5.34632-16.64671-6.14663-25.4463,15.77118-4.66382,11.61641-12.23581,28.93924-16.97922,45.068-4.22682,14.28852-6.22343,27.646-2.03588,35.28111C75.396,316.45748,91.4958,331.78866,99.70361,348.91253Z"
+              transform="translate(-50.625 -133.8148)"
+            />
+            <path
+              d="M68.99574,304.79359c6.40029,11.66389,22.50006,26.99507,30.70787,44.11894,2.14378-7.72349,4.75909-15.71476,4.75909-15.71476s10.03082-53.66869-19.64-67.53872a19.85762,19.85762,0,0,0-13.79106,3.85343C66.8048,283.801,64.80819,297.15851,68.99574,304.79359Z"
+              opacity=".1"
+              transform="translate(-50.625 -133.8148)"
+            />
+            <path
+              fill="#290f09"
+              d="M186.7818,301.41146l25.15446,7.33517,34.926,1.35436,3.593,30.348L193.05735,344.583S178.721,304.27874,186.7818,301.41146Z"
+              transform="translate(-50.625 -133.8148)"
+            />
+            <path
+              fill="#ffb9b9"
+              d="M145.764,403.451s33.65163,5.58313,25.971,15.7098-37.49194-.51979-37.49194-.51979Z"
+              transform="translate(-50.625 -133.8148)"
+            />
+            <path
+              d="M104.58149,370.72471c-.76057,14.69329-6.17341,31.68645-8.11534,44.04442,10.72016,10.14608,20.91438,19.09523,24.75621,19.24421,7.93772.30781,20.69963-.78723,25.4007.985s7.4583-28.32955,7.4583-28.32955-2.80572-9.64839-15.32139-14.90351C130.31217,388.21008,114.119,378.56726,104.58149,370.72471Z"
+              opacity=".1"
+              transform="translate(-50.625 -133.8148)"
+            />
+            <path
+              fill="#290f09"
+              d="M85.19206,256.13379s-26.86513-4.22165-25.41378,40.35271-2.83185,73.027,7.97315,81.39568,45.90258,46.29809,53.8403,46.6059,20.69964-.78724,25.40071.985,7.45829-28.32954,7.45829-28.32954S151.645,387.49514,139.12935,382.24s-42.00182-23.88779-41.75558-30.238,7.4583-28.32955,7.4583-28.32955S114.8629,270.00382,85.19206,256.13379Z"
+              transform="translate(-50.625 -133.8148)"
+            />
+            <circle cx="100.654" cy="58.105" r="34.952" fill="#ffb9b9" />
+            <path
+              fill="#54423d"
+              d="M174.81363,141.82272a6.74905,6.74905,0,0,0,2.93882,1.47478,2.09716,2.09716,0,0,0,2.43029-1.68345c.79968,1.65841,1.70192,3.42593,3.33461,4.27689s4.15732.13741,4.39266-1.68864a7.706,7.706,0,0,0,1.77364,3.74392c1.013.96584,2.85,1.20961,3.73439.12482-.715,3.90745-.27369,7.92586-.49823,11.89184s-1.2821,8.17049-4.27847,10.7784c-4.36987,3.80334-10.94108,2.86467-16.68929,2.1441a5.06575,5.06575,0,0,0-2.61539.14307c-2.15231.917-2.05467,3.9131-2.08369,6.25243a17.37275,17.37275,0,0,1-15.21221,16.49749,8.70861,8.70861,0,0,1-6.47244-1.57964c-1.63206-1.38336-2.46572-3.63806-4.33585-4.67724-3.04207-1.6904-6.73153.77486-8.95568,3.45158s-4.4162,5.96933-7.86172,6.45932c-4.55691.648-8.02766-3.996-9.73047-8.27217a48.223,48.223,0,0,1,.95837-37.46978C125.15791,132.94937,157.66118,129.66876,174.81363,141.82272Z"
+              transform="translate(-50.625 -133.8148)"
+            />
+          </svg>
+        </div>
+      </section>
+
+      <!--===== WORKS =====-->
+
+      <section class="works section" id="works">
+        <span class="section-subtitle">My recent projects</span>
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="works__container bd-grid">
+          <div class="works__img">
+            <img src="img/wikifind.png" alt="wikiFind" />
+
+            <div class="works__data">
+              <span class="works__title">WikiFind</span>
+              <a
+                href="https://wikifind-app.netlify.app/"
+                class="works__link"
+                target="__blank"
+              >
+                <i
+                  class="bx bx-link-external bx-flashing-hover works__icon"
+                ></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="img/notes-app.png" alt="Notes App" />
+
+            <div class="works__data">
+              <span class="works__title">Notes App</span>
+              <a
+                href="https://notes-app-clone.netlify.app/"
+                class="works__link"
+                target="__blank"
+              >
+                <i
+                  class="bx bx-link-external bx-flashing-hover works__icon"
+                ></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="img/weather-today.png" alt="" />
+
+            <div class="works__data">
+              <span class="works__title">Weather Today</span>
+              <a
+                href="https://weather-today-js.netlify.app/"
+                class="works__link"
+                target="__blank"
+              >
+                <i
+                  class="bx bx-link-external bx-flashing-hover works__icon"
+                ></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="img/task-organiser.png" alt="Task Organiser" />
+
+            <div class="works__data">
+              <span class="works__title">Task Organiser</span>
+              <a
+                href="https://task-organiser.netlify.app/"
+                class="works__link"
+                target="__blank"
+              >
+                <i
+                  class="bx bx-link-external bx-flashing-hover works__icon"
+                ></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="img/covid-tracker-light.png" alt="Covid Tracker" />
+
+            <div class="works__data">
+              <span class="works__title">Covid Tracker</span>
+              <a
+                href="https://covid19-global-tracking.netlify.app/"
+                class="works__link"
+                target="__blank"
+              >
+                <i
+                  class="bx bx-link-external bx-flashing-hover works__icon"
+                ></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="img/wordle.png" alt="Wordle Game" />
+
+            <div class="works__data">
+              <span class="works__title">Wordle</span>
+              <a
+                href="https://wordle-play.netlify.app/"
+                class="works__link"
+                target="__blank"
+              >
+                <i
+                  class="bx bx-link-external bx-flashing-hover works__icon"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Inspirational Quotes-->
+      <section class="quote section">
+        <div class="quote__container bd-grid">
+          <div class="quote__data">
+            <h2 class="section-title quote__title">Inspiring Quotes</h2>
+
+            <div class="container">
+              <div class="carousel">
+                <div class="slider">
+                  <section>
+                    <h6 class="quotelines">
+                      <img
+                        class="quotes-img"
+                        src="img/quotes/steve-jobs.jpg"
+                        alt="Steve Jobs"
+                      />
+                      <br />
+                      "Because the people who are crazy enough to <br />
+                      think they can change the world are the ones who do."
+                      <p class="desc">
+                        <br />
+                        <b>Steve Jobs</b>
+                      </p>
+                    </h6>
+                  </section>
+                  <section>
+                    <h6 class="quotelines">
+                      <img
+                        class="quotes-img"
+                        src="img/quotes/bill-gates.jpg"
+                        alt="Bill Gates"
+                      />
+                      <br />
+                      "Success is a lousy teacher. It seduces <br />
+                      smart people into thinking they can't lose."
+                      <p class="desc">
+                        <br />
+                        <b>Bill Gates</b>
+                      </p>
+                    </h6>
+                  </section>
+                  <section>
+                    <h6 class="quotelines">
+                      <img
+                        class="quotes-img"
+                        src="img/quotes/mark-zuckerberg.png"
+                        alt="Larry Page"
+                      />
+                      <br />
+                      "Move fast and break things. Unless you <br />
+                      are breaking stuff, you are not moving fast enough."
+                      <p class="desc">
+                        <br />
+                        <b>Mark Zuckerberg</b>
+                      </p>
+                    </h6>
+                  </section>
+                  <section>
+                    <h6 class="quotelines">
+                      <img
+                        class="quotes-img"
+                        src="img/quotes/larry-page.jpg"
+                        alt="Larry Page"
+                      />
+                      <br />
+                      "If you're changing the world, you're working on <br />
+                      important things. You're excited to get up in the
+                      morning."
+                      <p class="desc">
+                        <br />
+                        <b>Larry Page</b>
+                      </p>
+                    </h6>
+                  </section>
+                </div>
+
+                <div class="control">
+                  <span class="arrow left">
+                    <i class="material-icons"> west </i>
+                  </span>
+                  <span class="arrow right">
+                    <i class="material-icons"> east </i>
+                  </span>
+                  <ul>
+                    <li class="selected"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+
+      <section class="contact section" id="contact">
+        <span class="section-subtitle">Get in touch</span>
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form" autocomplete="off">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                placeholder="Name 🤖"
+                class="contact__input"
+                id="name"
+                required
+              />
+              <input
+                type="mail"
+                placeholder="Email 📩"
+                class="contact__input"
+                id="email"
+                required
+              />
+            </div>
+
+            <textarea
+              name=""
+              cols="30"
+              rows="10"
+              placeholder="Message 📃"
+              class="contact__input"
+              id="message"
+              required
+            ></textarea>
+
+            <input
+              type="submit"
+              value="Send Message"
+              class="button contact__button"
+              onclick="sentMessage()"
+            />
+            <span class="contact-message bx-fade-down"
+              >&nbsp; Message received!</span
+            >
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <h1 class="footer__title">Md Aasim Ahmad</h1>
+        <p class="footer__description">
+          <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by Aasim |
+          ©️ 2022
+        </p>
+
+        <div class="footer__social">
+          <h4 class="footer__social__title">I'm just a ping away</h4>
+
+          <!-- <a href="https://wa.me/919852590597?text=Hi%20Aasim" class="footer__link"><img src="img/WhatsApp.png" class="fa fa-whatsapp" width="50px" height="50px" /></a> -->
+
+          <a
+            href="https://wa.me/919852590597?text=Hi%20Aasim"
+            class="footer__link"
+            ><i class="fab fa-whatsapp-square"></i
+          ></a>
+
+          <a href="https://www.facebook.com/aasim.ahmad" class="footer__link"
+            ><i class="fa fa-facebook-square"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/aasimahmad/" class="footer__link"
+            ><i class="fa fa-linkedin-square"></i
+          ></a>
+
+          <a
+            href="mailto:aasimahmad5@gmail.com?subject=Regarding%20a%20project&body=Hi%20Aasim,%20"
+            class="footer__link"
+            ><i class="fas fa-envelope-square"></i
+          ></a>
+        </div>
+
+        <img class="footer__image" src="img/foot-dark.jpg" />
+      </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== JS =====-->
+    <script src="js/main.js"></script>
+    <script src="js/quote-slider.js"></script>
+    <script src="js/download-resume.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="js/contact-form.js"></script>
+
+    <!-- Font Awesome Heart Icon JS -->
+    <script
+      src="https://kit.fontawesome.com/561adccc87.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
